@@ -1,5 +1,5 @@
 # DNSSEC
-Implementation of DNS Security Extension
+Implementation of DNS Security Extension on a hierachical Domain Name System
 
 This document is the final transcription of the efforts made in the realization of my thesis in audit, security of systems and computer networks on the theme "Implementation of a public key infrastructure: case of DNSSEC".
 
@@ -14,11 +14,12 @@ sudo apt install bind9 bind9-utils haveged
 ```
 
 ## Architecture
-For the implementation here, we use 4 Servers like :
-* Root Server "."
-* TLD Server (.com)
+For the implementation of our project, we use 4 Servers like :
+* Root Server 
+* TLD Server
 * Recursif Server
-* Reference Server (example.com)
+* Reference Server
+
 And finally we also use a client machine.
 
 The Architecture of our implementation look like this
