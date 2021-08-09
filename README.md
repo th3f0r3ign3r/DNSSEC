@@ -18,7 +18,7 @@ For the implementation of our project, we use 4 Servers like :
 * Root Server 
 * TLD Server
 * Recursif Server
-* Reference Server
+* Domain Name Server
 
 And finally we also use a client machine.
 
