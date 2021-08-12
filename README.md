@@ -1,7 +1,7 @@
 # Domain Name System Security Extension `DNSSEC`
 Implementation du DNS Security Extension suivant la hierachie DNS
 
-Ce document est la transcription final des effort effectues dans la realisation de rapport de fin de formation en `Audit, Securite des Systemes et Reseaux Informatiques` sur le theme `Implementation d'une infrastructure a cle publique (PKI): Cas du DNSSEC`.
+Ce document est la transcription finale des effort effectues dans la realisation de rapport de fin de formation en `Audit, Securite des Systemes et Reseaux Informatiques` sur le theme `Implementation d'une infrastructure a cle publique (PKI): Cas du DNSSEC`.
 
 ## Systeme D'exploitation
 Pour la realisation de ce Projet nous avons installer nos serveurs sur :
