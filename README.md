@@ -340,7 +340,7 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	example.com.
-example.com.	A	10.0.0.3
+example.com.	A	10.0.0.5
 ```
 
 * Creer le fichier `db.com.inv`
@@ -362,7 +362,7 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	example.com.
-3	IN	PTR	example.com.
+5	IN	PTR	example.com.
 ```
 
 #### 4 - Dans le fichier `/etc/bind/named.conf.default-zones` assurer vous que le fichier que la zone root `.` n'est pas commenter ou effacer :
@@ -479,6 +479,11 @@ iface ens33 inet static
 #### 4 - Vider le fichier `/etc/resolv.conf` afin qu'il ne contienne aucun enregistrement, car cela permettra de rediriger toutes les requetes vers le serveur `BIND`.
 
 
+## Redemarrez les services `BIND`
+Sur chacun des serveurs que nous avons configurer nous devons redemmarrer les services `DNS` en executant la commande suivante :
+```bash
+rndc flush && /etc/init.d/bind9 restart
+```
 
 ## Generation des cles et Signature de zone
 Comming Soon
