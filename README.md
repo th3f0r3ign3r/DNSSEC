@@ -412,7 +412,7 @@ iface ens33 inet static
 nameserver 10.0.0.5
 ```
 
-#### 7 - Declaration du TLD `example.com`
+#### 7 - Declaration du domaine `example.com`
 Dans le fichier de zone du serveur TLD `db.com` sautez une ligne et ajoutez la config suivante :
 ```
 $ORIGIN	example.com.
